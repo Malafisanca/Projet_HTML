@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    
+    
+}
+
+header{
+    background-color: #f3fcff;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border-style: outset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 1px #125e76;
+    
+}
+
+ul {
+    background-color: #125e76; 
+    display: flex;
+    border-radius: 5px;
+}
+li {
+    list-style: none;
+    margin: 5px; 
+    padding: 0 8px;
+    color: white;
+
+}
+header li a:hover {
+ color: aqua;
+ font-size: 15px;
+}
+
+.botton a{
+    text-decoration: none;
+    color: #125e76;
+    padding: 0 5px;
+    font-family: 13px;
+    gap: 10px;
+    
+    
+}
+
+/* Accueil Css */
+
+.container{
+    display: flex;
+    align-items: center;
+
+}
+.assistance{
+   text-align: center;
+   margin-left: 15rem;
+}
+.assistance h1{
+    color: #125e76; 
+    font-size: 50px;
+}
+.image{
+    margin-left: 15rem;
+    width: 200px;
+    margin-top: 50px;
+}
+
+
+button{
+    text-align: center;
+    padding: 20px  0;
+    margin-left: 25px;
+    margin: 70px;
+}
+.btn1{
+    background-color: #125e76;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-left: 300px;
+    
+}
+.btn2{
+    color: #125e76;
+    padding: 15px; 
+    border-color: #125e76;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 50px;
+    
+}
+
+/* A propo Css */
+#propo{
+    padding: 5px 200px;
+    background-color: #125e76;
+    text-align: center;
+    
+}
+.container1{
+    color: white;
+    margin: 100px;
+}
+
+.container1 h1 {
+    font-size: 50px;
+    margin: 30px;
+}
+.container1 .btn {
+   margin: 30;
+}
+
+/* Partenaire Css */
+
+
+#partenaire .a h1{
+    color: #125e76; 
+    font-size: 50px; 
+    text-align: center;
+    margin: 70px;
+}
+
+#partenaire .b{
+    background-color: #adebff;
+    text-align: center;
+    margin: 90px;
+    border-radius: 10px;
+}
+
+#partenaire .b img {
+    margin: 30px;
+    padding: 0 50px;
+}
+
+/* Temoignga Css */
+#temoignga{
+    
+    text-align: center;
+}
+#temoignga h1{
+    text-align: center;
+    color: #125e76; 
+    font-size: 50px; 
+    margin: 70px;
+    
+}
+.temoignga1 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 500px;
+    margin: 0  auto;
+    gap: 60px;
+    
+   
+}
+.tem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    box-shadow: 3px 3px 10px;
+    color: #125e76;
+    
+    
+}
+
+/* contact Css */
+#Contact{
+    box-shadow: 4px;
+}
+
+
+#Contact h1{
+    color: #125e76; 
+    font-size: 50px; 
+    text-align: center;
+    margin: 70px;
+   
+
+}
+#Contact .cont{
+    padding: 0 250px;
+    background-color: #125e76;
+    text-align: center;
+    margin: 70px;
+    flex-direction: column;
+}
+.cont form, label, input, textarea{
+   margin: 10px 0;
+   padding: 10px;
+   border: 0;
+   outline: 0;
+   resize: none;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: left;
+
+}
+label{
+    color: white;
+    text-align: left;
+}
+input{
+    border: 10px;
+}
+
+/* footer Css */
+footer{
+    background-color: black;
+    text-align: center;
+    
+    
+}
+.foot{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem 8rem;
+    gap: 3rem;
+}
+footer .left{
+    text-align: left;
+}
+footer .right{
+    text-align: left;
+}
+
+footer .icon{
+    background-color: white;
+    color: #125e76;
+    margin: 70px ;
+    border-radius: 5px;
+    transform: rotate(90deg);
+   
+    
+}
+footer .icon i{
+    transform: rotate(-90deg);
+    margin: 5px;
+}
+footer .icon1{
+    color: white;
+    text-align: center;
+    
+    
+}
+footer .icon1 i{
+    background-color: white;
+    color: #125e76;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
